@@ -1,3 +1,5 @@
-# msggo
+##Introduction
+msggo is one tool consume message from kafka, does some process and then store data into ssdb. And u can search message information from rest api.
 
-Consume chat message log in kafka,and do some process then store in ssdb, and provide some rest api for search message. 
+##demo example
+./msggo-demo -topic=ejabberd-chat-messages -brokers=kafka1:9092
